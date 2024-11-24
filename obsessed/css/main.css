@@ -1,0 +1,79 @@
+/* CSS Document */
+
+/**
+* Components Website
+* Developed By: Josh Story
+**/
+
+@font-face {
+  font-family: "SevenBody-Light";
+  src: url("../fonts/SevenBody-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --font-sans: "SevenBody-Light", sans-serif !important;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-blue: #0672ad;
+  --color-bluelight: #88bcd8;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -20px;
+  font-family: var("font-sans");
+  background-color: #000;
+}
+
+img {
+  display: block;
+  width: 65vw;
+  margin: 0 auto;
+  mix-blend-mode: screen;
+  border-bottom: 3px solid red;
+}
+
+header {
+  width: 100vw;
+}
+
+.h1 {
+  text-align: center;
+  font-family: var(--font-sans);
+  font-weight: bolder;
+  font-size: 5em;
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+.p1 {
+  width: 65vw;
+  margin: 0 auto 1em auto;
+  font-family: var(--font-sans);
+  font-size: 2em;
+  color: #fff;
+}
+
+.img--1 {
+  margin-bottom: 2em;
+}
+
+.img--2 {
+  margin-bottom: 5em;
+}
